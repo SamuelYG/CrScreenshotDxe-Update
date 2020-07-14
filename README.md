@@ -1,6 +1,6 @@
 # CrScreenshotDxe-Update
 * 更换新的 [lodepng](https://github.com/lvandeve/lodepng)
-* 增加一个 x86 的 .efi 供测试使用
+* 增加一个 X64 的 .efi 供测试使用
 
 ## TODO
 - [ ] 更改快捷键（方便 Windows + wsl 下使用 qemu 测试）
