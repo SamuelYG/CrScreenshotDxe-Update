@@ -334,9 +334,11 @@ CrScreenshotDxeEntry (
     BOOLEAN                           Installed = FALSE;
 
     // Set keystroke to be LCtrl+LAlt+F12
+    // Change to  LCtrl + LShift + F12
     SimpleTextInExKeyStroke.Key.ScanCode = SCAN_F12;
     SimpleTextInExKeyStroke.Key.UnicodeChar = 0;
-    SimpleTextInExKeyStroke.KeyState.KeyShiftState = EFI_SHIFT_STATE_VALID | EFI_LEFT_CONTROL_PRESSED | EFI_LEFT_ALT_PRESSED;
+    // SimpleTextInExKeyStroke.KeyState.KeyShiftState = EFI_SHIFT_STATE_VALID | EFI_LEFT_CONTROL_PRESSED | EFI_LEFT_ALT_PRESSED;
+    SimpleTextInExKeyStroke.KeyState.KeyShiftState = EFI_SHIFT_STATE_VALID | EFI_LEFT_CONTROL_PRESSED | EFI_LEFT_SHIFT_PRESSED;
     SimpleTextInExKeyStroke.KeyState.KeyToggleState = 0;
 
     // Locate compatible protocols, firstly try SimpleTextInEx, otherwise use AppleEvent
