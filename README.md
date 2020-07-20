@@ -1,6 +1,6 @@
 # CrScreenshotDxe-Update
 * 更换新的 [lodepng](https://github.com/lvandeve/lodepng)
-* 增加一个 X64 的 .efi 供测试使用
+* 增加一个 X64 和 ARM64 的 .efi
 * 快捷键改为 LCtrl + LShift + F12
 
 ## TODO
@@ -13,7 +13,7 @@
 
 ------
 
-# CrScreenshotDxe
+# [CrScreenshotDxe](https://github.com/LongSoft/CrScreenshotDxe)
 UEFI DXE driver to take screenshots from GOP-compatible graphic consoles.
 
 [This blog post in Russian](http://habrahabr.ru/post/274463/) explains more, here is just a description and usage.
